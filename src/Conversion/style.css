@@ -1,0 +1,18 @@
+.conversion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+.select {
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+.input {
+  margin-left: 10px;
+  height: 36px;
+}
