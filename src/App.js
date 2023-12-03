@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import Header from "./Components/Header";
-import Conversion from "./Conversion";
+import CurrencyConverter from "./Components/CurrencyConverter";
 
 function App() {
   const [rates, setRates] = useState({});
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header rates={rates} />
-      <Conversion />
+      <CurrencyConverter />
     </div>
   );
 }
